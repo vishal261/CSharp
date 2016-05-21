@@ -40,7 +40,6 @@ namespace Postfix_Calculator
                         default:
                             throw new ArgumentException(string.Format("Unrecognized toke: {0}", token));
                     }
-
                 }
             }
             Console.WriteLine(values.Pop());
